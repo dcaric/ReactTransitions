@@ -10,6 +10,7 @@ const Header = () => {
               <Link className="p-2" to="/tgroup">Tgroup</Link> - 
               <Link className="p-2 " to="/transition">Transition</Link>
               <Link className="p-2 " to="/other">Other</Link>
+              <Link className="p-2 " to="/reducer">Reducer</Link>
             </nav>
           </div>
         </header>

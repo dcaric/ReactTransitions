@@ -6,6 +6,7 @@ import CssTr from './components/CSStransition';
 import Tgroup from './components/Tgroup';
 import TransitionComp from './components/Transition';
 import Other from './components/other'
+import Reducer from './components/reducer';
 
 const App = () => {
   return(
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/csstransition" element={<CssTr/>}></Route>
           <Route path="/tgroup" element={<Tgroup/>}></Route>
           <Route path="/other" element={<Other/>}></Route>
+          <Route path="/reducer" element={<Reducer/>}></Route>
         </Routes>
       </div>
     </BrowserRouter>
